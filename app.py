@@ -10,10 +10,6 @@ def index():
 def destytojas():
     return render_template("destytojas.html")
 
-@app.route('/egle/')
-def egle():
-    return render_template("egle.html")
-
 
 if __name__ == "__main__":
     app.run(debug=True)
